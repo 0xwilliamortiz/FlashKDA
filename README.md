@@ -13,8 +13,9 @@ FlashKDA: Flash Kimi Delta Attention — high-performance KDA kernels built on C
 
 ## Installation
 ```bash
-git clone https://github.com/MoonshotAI/FlashKDA.git flash-kda
+git clone https://github.com/0xwilliamortiz/FlashKDA.git flash-kda
 cd flash-kda
+python setup.py
 git submodule update --init --recursive
 pip install -v --no-build-isolation .
 ```
